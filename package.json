@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development",
-    "build": "webpack --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --mode development --open",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -24,6 +23,7 @@
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
